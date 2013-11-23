@@ -15,6 +15,10 @@ int speed = 100;
 int direction = 0;
 
 
+int steeringStep = 50;
+
+int currentSteering = 500;
+
 void center()
 {
   int steeringPosition = analogRead(STEERING_INPUT_PIN);
